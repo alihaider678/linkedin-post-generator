@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama-3.3-70b-versatile")
+llm = ChatGroq(groq_api_key=os.getenv("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"), model_name="llama-3.3-70b-versatile")
 
 
 if __name__ == "__main__":
